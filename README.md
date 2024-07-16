@@ -237,26 +237,7 @@ Patrick et al., 2021](https://arxiv.org/abs/2106.05392)*
 * If you encounter [`UnsatisfiableError`](https://github.com/facebookresearch/xformers/issues/390#issuecomment-1315020700) when installing with conda, make sure you have PyTorch installed in your conda environment, and that your setup (PyTorch version, cuda version, python version, OS) match [an existing binary for xFormers](https://anaconda.org/xformers/xformers/files)
 
 
-### License
 
-xFormers has a BSD-style license, as found in the [LICENSE](LICENSE) file.
-
-## Citing xFormers
-
-If you use xFormers in your publication, please cite it by using the following BibTeX entry.
-
-``` bibtex
-@Misc{xFormers2022,
-  author =       {Benjamin Lefaudeux and Francisco Massa and Diana Liskovich and Wenhan Xiong and Vittorio Caggiano and Sean Naren and Min Xu and Jieru Hu and Marta Tintore and Susan Zhang and Patrick Labatut and Daniel Haziza and Luca Wehrstedt and Jeremy Reizenstein and Grigory Sizov},
-  title =        {xFormers: A modular and hackable Transformer modelling library},
-  howpublished = {\url{https://github.com/facebookresearch/xformers}},
-  year =         {2022}
-}
-```
-
-## Credits
-
-The following repositories are used in xFormers, either in close to original form or as an inspiration:
 
 * [Sputnik](https://github.com/google-research/sputnik)
 * [GE-SpMM](https://github.com/hgyhungry/ge-spmm)
